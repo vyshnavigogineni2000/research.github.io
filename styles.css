@@ -23,6 +23,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    width: 100%; /* Set width to 100% */
 }
 
 .logo a {

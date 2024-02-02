@@ -84,7 +84,7 @@ main {
     height: auto;
     border-radius: 50%;
     margin-bottom: 20px;
-    width: 50px; /* Adjust width as needed */
+    width: 100px; /* Adjust width as needed */
 }
 
 .social-links {

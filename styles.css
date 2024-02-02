@@ -15,7 +15,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 999;
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #a29f9e;
 }
 
 nav {
@@ -28,9 +28,10 @@ nav {
 
 .logo a {
     text-decoration: none;
-    color: #000000;
+    color: #666462;
     font-weight: bold;
     font-size: 1.2em;
+    transition: color 0.3s;
 }
 
 .nav-links {
@@ -44,9 +45,13 @@ nav {
 
 .nav-links li a {
     text-decoration: none;
-    color: #000000;
+    color: #666462;
     position: relative;
     padding: 0 10px;
+    transition: color 0.3s;
+}
+.nav-links li a:hover {
+    color: #ADD8E6; /* Change color on hover to light blue */
 }
 
 .nav-links li a::after {

@@ -15,7 +15,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 999;
-    border-bottom: 1px solid #a29f9e;
+    border-bottom: 1px solid #a29f9e; /* Change color of navigation bar line */
 }
 
 nav {
@@ -28,10 +28,10 @@ nav {
 
 .logo a {
     text-decoration: none;
-    color: #666462;
+    color: #666462; /* Change color of logo */
     font-weight: bold;
     font-size: 1.2em;
-    transition: color 0.3s;
+    transition: color 0.3s; /* Add transition for color change */
 }
 
 .nav-links {
@@ -45,11 +45,12 @@ nav {
 
 .nav-links li a {
     text-decoration: none;
-    color: #666462;
+    color: #666462; /* Change color of navigation links */
     position: relative;
-    padding: 0 10px;
-    transition: color 0.3s;
+    padding: 0 10px; /* Add padding to create space between links */
+    transition: color 0.3s; /* Add transition for color change */
 }
+
 .nav-links li a:hover {
     color: #ADD8E6; /* Change color on hover to light blue */
 }

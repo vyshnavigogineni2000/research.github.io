@@ -45,14 +45,15 @@ nav {
 
 .nav-links li a {
     text-decoration: none;
-    color: #666462; /* Change color of navigation links */
+    color: #666462; 
     position: relative;
     padding: 0 10px; /* Add padding to create space between links */
     transition: color 0.3s; /* Add transition for color change */
+    display: inline-block; /* Ensure anchor elements only take necessary space */
 }
 
 .nav-links li a:hover {
-    color: #ADD8E6; /* Change color on hover to light blue */
+    color: #318CE7; 
 }
 
 .nav-links li a::after {
@@ -60,10 +61,11 @@ nav {
     position: absolute;
     width: 0%;
     height: 2px;
-    background-color: #000000;
+    background-color: #318CE7; /* Change color of animation line to light blue */
     bottom: -5px;
     left: 0;
     transition: 0.3s;
+    display: block;
 }
 
 .nav-links li a:hover::after {
@@ -81,8 +83,10 @@ main {
 
 .profile img {
     max-width: 100%;
+    height: auto;
     border-radius: 50%;
     margin-bottom: 20px;
+    width: 150x;
 }
 
 .social-links {
@@ -97,7 +101,7 @@ main {
 }
 
 .profile-info {
-    text-align: center;
+    text-align: center; /* Center align the profile information */
 }
 
 .profile-info .name {
@@ -107,4 +111,16 @@ main {
 .profile-info .designation {
     font-style: italic;
     color: #666462; /* Adjust color as needed */
+}
+
+.media-links {
+    text-align: center; /* Center align the media links */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+}
+
+.media-links a {
+    display: inline-block; /* Ensure media links are displayed in a row */
+    margin: 0 10px; /* Add space between media links */
 }

@@ -97,3 +97,16 @@ main {
     overflow-y: auto;
     padding-left: 20px;
 }
+
+.profile-info {
+    text-align: center;
+}
+
+.profile-info .name {
+    font-weight: bold;
+}
+
+.profile-info .designation {
+    font-style: italic;
+    color: #666462; /* Adjust color as needed */
+}

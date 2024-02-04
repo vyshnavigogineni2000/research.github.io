@@ -114,29 +114,30 @@ main {
     color: #666462; /* Adjust color as needed */
 }
 
-.right-section p {
-    font-size: 19px; /* Example font size */
-    line-height: 1.6; /* Example line height for better readability */
-    margin-bottom: 20px; /* Adds space between paragraphs */
+.sponsors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px 0;
 }
 
-.right-section ul {
-    list-style-type: none;
-    padding-left: 0;
+.sponsor {
+    text-align: center;
+    margin: 10px;
+    width: 160px; /* Adjust based on your layout and image sizes */
 }
 
-.right-section li {
+.sponsor img {
+    width: 100%; /* Makes the image responsive */
+    height: auto;
     margin-bottom: 10px;
 }
 
-.right-section li:before {
-    content: "📄"; /* Adds a paper icon before each publication */
-    margin-right: 5px;
+.sponsor p {
+    margin-top: 5px;
 }
 
-.right-section h3 {
-    margin-top: 20px;
-}
+
 
 
 /* Media queries for tablet and mobile */

@@ -120,6 +120,23 @@ main {
     margin-bottom: 20px; /* Adds space between paragraphs */
 }
 
+.right-section ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.right-section li {
+    margin-bottom: 10px;
+}
+
+.right-section li:before {
+    content: "📄"; /* Adds a paper icon before each publication */
+    margin-right: 5px;
+}
+
+.right-section h3 {
+    margin-top: 20px;
+}
 
 
 /* Media queries for tablet and mobile */

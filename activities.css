@@ -114,44 +114,41 @@ main {
     color: #666462; /* Adjust color as needed */
 }
 
-.sponsors {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px 0;
+.right-section p {
+    font-size: 19px; /* Example font size */
+    line-height: 1.6; /* Example line height for better readability */
+    margin-bottom: 20px; /* Adds space between paragraphs */
 }
 
-.sponsor {
-    text-align: center;
-    margin: 10px;
-    width: 160px; /* Adjust based on your layout and image sizes */
-}
-
-.sponsor img {
-    width: 100%; /* Makes the image responsive */
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.sponsor p {
-    margin-top: 5px;
-}
-.right-section ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.right-section li {
-    margin-bottom: 10px;
-}
-.right-section li:before {
-    content: "🔬"; /* Adds a paper icon before each project */
-    margin-right: 5px;
-}
-
-.right-section h3 {
+.right-section h2, .right-section h3 {
     margin-top: 20px;
 }
+
+.right-section ol {
+    margin-left: 20px;
+}
+
+.right-section ol li {
+    margin-bottom: 10px;
+}
+
+.right-section a {
+    color: #318CE7; /* Example color for links */
+    text-decoration: none;
+}
+
+.right-section a:hover {
+    text-decoration: underline;
+}
+.right-section ol, .right-section ul {
+    list-style-type: none; /* Removes bullet points from ordered and unordered lists */
+    padding-left: 0; /* Removes the default padding */
+}
+
+.right-section ol li, .right-section ul li {
+    margin-bottom: 10px; /* Adds spacing between list items for better readability */
+}
+
 
 
 /* Media queries for tablet and mobile */

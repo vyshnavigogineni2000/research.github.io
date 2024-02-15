@@ -114,43 +114,37 @@ main {
     color: #666462; /* Adjust color as needed */
 }
 
-.sponsors {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 20px 0;
+.right-section p {
+    font-size: 19px; /* Example font size */
+    line-height: 1.6; /* Example line height for better readability */
+    margin-bottom: 20px; /* Adds space between paragraphs */
 }
 
-.sponsor {
-    text-align: center;
-    margin: 10px;
-    width: 160px; /* Adjust based on your layout and image sizes */
+.right-section .invitation {
+    font-family: Arial, sans-serif; /* Choose a readable yet modern font */
+    background-color: #f0f8ff; /* A light background to make the paragraph stand out */
+    border-left: 4px solid #318ce7; /* A colored border for emphasis */
+    padding: 15px; /* Padding to create space inside the background */
+    margin: 20px 0; /* Spacing around the paragraph */
+    border-radius: 5px; /* Optional: rounded corners */
 }
 
-.sponsor img {
-    width: 100%; /* Makes the image responsive */
-    height: auto;
-    margin-bottom: 10px;
+.right-section .highlight {
+    color: #318ce7; /* Color to highlight key terms */
+    font-weight: bold; /* Make the key terms bold */
 }
 
-.sponsor p {
-    margin-top: 5px;
-}
-.right-section ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.right-section li {
-    margin-bottom: 10px;
-}
-.right-section li:before {
-    content: "🔬"; /* Adds a paper icon before each project */
-    margin-right: 5px;
+.right-section .contact-link {
+    color: #ffffff; /* Light text on dark backgrounds */
+    background-color: #318ce7; /* Matching the highlight color */
+    padding: 5px 10px; /* Padding around the link text */
+    border-radius: 5px; /* Rounded corners for the link */
+    text-decoration: none; /* Remove underline from the link */
+    font-weight: bold; /* Optional: make the link text bold */
 }
 
-.right-section h3 {
-    margin-top: 20px;
+.right-section .contact-link:hover {
+    background-color: #1a5f97; /* Darker shade on hover for interaction feedback */
 }
 
 

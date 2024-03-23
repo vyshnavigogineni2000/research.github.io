@@ -120,6 +120,10 @@ main {
     margin-bottom: 20px; /* Adds space between paragraphs */
 }
 
+.justified{
+    text-align: justify;
+    font-size: 14px;
+}
 
 
 /* Media queries for tablet and mobile */
